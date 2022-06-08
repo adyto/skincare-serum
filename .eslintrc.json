@@ -32,9 +32,14 @@
                 ]
             }
         ],
-        "quotes": [
+        "eol-last": 0,
+        "no-multiple-empty-lines": [
             "error",
-            "single"
-        ]
+            {
+                "max": 1,
+                "maxEOF": 0
+            }
+        ],
+        "react/jsx-props-no-spreading": "off"
     }
 }
